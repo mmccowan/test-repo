@@ -1,0 +1,37 @@
+## R and Git Notes.
+
+$ git config --global user.name "mmccowan"
+$ git config --global user.email "mmccowan@qti.qualcomm.com"
+
+# To confirm changes
+
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+pack.packsizelimit=2g
+help.format=html
+http.sslcainfo=/bin/curl-ca-bundle.crt
+sendmail.smtpserver=/bin/msmtp.exe
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+user.name=John Doe
+user.email=john@gmail.com
+
+
+## Git Repository activities
+
+/Users/mmccowan
+$ mkdir ~/test-repo
+$ cd ~/test-repo
+$ git init
+Initialized empty Git repository in /Users/mmccowan/test-repo/.git/
+$ git remote add origin http://github.com/mmccowan/test-repo.git
+$ git init
+Reinitialized existing Git repository in /Users/mmccowan/test-repo/.git/
+$ 
+
+
